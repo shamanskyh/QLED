@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ABDFD091C2DBC3E00B71E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDFD081C2DBC3E00B71E48 /* AppDelegate.swift */; };
+		4ABDFD0B1C2DBC3E00B71E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDFD0A1C2DBC3E00B71E48 /* Assets.xcassets */; };
+		4ABDFD0E1C2DBC3E00B71E48 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDFD0C1C2DBC3E00B71E48 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ABDFD051C2DBC3E00B71E48 /* QLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABDFD081C2DBC3E00B71E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ABDFD0A1C2DBC3E00B71E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABDFD0D1C2DBC3E00B71E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4ABDFD0F1C2DBC3E00B71E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABDFD021C2DBC3E00B71E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABDFCFC1C2DBC3D00B71E48 = {
+			isa = PBXGroup;
+			children = (
+				4ABDFD071C2DBC3E00B71E48 /* QLED */,
+				4ABDFD061C2DBC3E00B71E48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABDFD061C2DBC3E00B71E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDFD051C2DBC3E00B71E48 /* QLED.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABDFD071C2DBC3E00B71E48 /* QLED */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDFD081C2DBC3E00B71E48 /* AppDelegate.swift */,
+				4ABDFD0A1C2DBC3E00B71E48 /* Assets.xcassets */,
+				4ABDFD0C1C2DBC3E00B71E48 /* MainMenu.xib */,
+				4ABDFD0F1C2DBC3E00B71E48 /* Info.plist */,
+			);
+			path = QLED;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABDFD041C2DBC3E00B71E48 /* QLED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABDFD121C2DBC3E00B71E48 /* Build configuration list for PBXNativeTarget "QLED" */;
+			buildPhases = (
+				4ABDFD011C2DBC3E00B71E48 /* Sources */,
+				4ABDFD021C2DBC3E00B71E48 /* Frameworks */,
+				4ABDFD031C2DBC3E00B71E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLED;
+			productName = QLED;
+			productReference = 4ABDFD051C2DBC3E00B71E48 /* QLED.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABDFCFD1C2DBC3D00B71E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Harry Shamansky";
+				TargetAttributes = {
+					4ABDFD041C2DBC3E00B71E48 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4ABDFD001C2DBC3D00B71E48 /* Build configuration list for PBXProject "QLED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABDFCFC1C2DBC3D00B71E48;
+			productRefGroup = 4ABDFD061C2DBC3E00B71E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABDFD041C2DBC3E00B71E48 /* QLED */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABDFD031C2DBC3E00B71E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABDFD0B1C2DBC3E00B71E48 /* Assets.xcassets in Resources */,
+				4ABDFD0E1C2DBC3E00B71E48 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABDFD011C2DBC3E00B71E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABDFD091C2DBC3E00B71E48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ABDFD0C1C2DBC3E00B71E48 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABDFD0D1C2DBC3E00B71E48 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ABDFD101C2DBC3E00B71E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ABDFD111C2DBC3E00B71E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4ABDFD131C2DBC3E00B71E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harryshamansky.QLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ABDFD141C2DBC3E00B71E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harryshamansky.QLED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABDFD001C2DBC3D00B71E48 /* Build configuration list for PBXProject "QLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABDFD101C2DBC3E00B71E48 /* Debug */,
+				4ABDFD111C2DBC3E00B71E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABDFD121C2DBC3E00B71E48 /* Build configuration list for PBXNativeTarget "QLED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABDFD131C2DBC3E00B71E48 /* Debug */,
+				4ABDFD141C2DBC3E00B71E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABDFCFD1C2DBC3D00B71E48 /* Project object */;
+}
