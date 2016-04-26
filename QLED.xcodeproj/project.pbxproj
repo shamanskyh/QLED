@@ -10,7 +10,23 @@
 		4ABDFD091C2DBC3E00B71E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDFD081C2DBC3E00B71E48 /* AppDelegate.swift */; };
 		4ABDFD0B1C2DBC3E00B71E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDFD0A1C2DBC3E00B71E48 /* Assets.xcassets */; };
 		4ABDFD0E1C2DBC3E00B71E48 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDFD0C1C2DBC3E00B71E48 /* MainMenu.xib */; };
+		4ABDFEE11C2DD2D400B71E48 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDFEE01C2DD2D400B71E48 /* CoreMIDI.framework */; };
+		4ABDFEE31C2DDFA900B71E48 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDFEE21C2DDFA900B71E48 /* ReadMe.txt */; };
+		4ABDFEE61C2DE59F00B71E48 /* LEDTapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDFEE41C2DE59F00B71E48 /* LEDTapeViewController.swift */; };
+		4ABDFEE71C2DE59F00B71E48 /* LEDTapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ABDFEE51C2DE59F00B71E48 /* LEDTapeViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4ABDFED81C2DCCC100B71E48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4ABDFD051C2DBC3E00B71E48 /* QLED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLED.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,6 +34,11 @@
 		4ABDFD0A1C2DBC3E00B71E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ABDFD0D1C2DBC3E00B71E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4ABDFD0F1C2DBC3E00B71E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABDFDEF1C2DC68700B71E48 /* QLED.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = QLED.entitlements; sourceTree = "<group>"; };
+		4ABDFEE01C2DD2D400B71E48 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		4ABDFEE21C2DDFA900B71E48 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		4ABDFEE41C2DE59F00B71E48 /* LEDTapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEDTapeViewController.swift; sourceTree = "<group>"; };
+		4ABDFEE51C2DE59F00B71E48 /* LEDTapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDTapeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABDFEE11C2DD2D400B71E48 /* CoreMIDI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +56,7 @@
 		4ABDFCFC1C2DBC3D00B71E48 = {
 			isa = PBXGroup;
 			children = (
+				4ABDFEE01C2DD2D400B71E48 /* CoreMIDI.framework */,
 				4ABDFD071C2DBC3E00B71E48 /* QLED */,
 				4ABDFD061C2DBC3E00B71E48 /* Products */,
 			);
@@ -50,10 +73,14 @@
 		4ABDFD071C2DBC3E00B71E48 /* QLED */ = {
 			isa = PBXGroup;
 			children = (
+				4ABDFDEF1C2DC68700B71E48 /* QLED.entitlements */,
 				4ABDFD081C2DBC3E00B71E48 /* AppDelegate.swift */,
+				4ABDFEE41C2DE59F00B71E48 /* LEDTapeViewController.swift */,
+				4ABDFEE51C2DE59F00B71E48 /* LEDTapeViewController.xib */,
 				4ABDFD0A1C2DBC3E00B71E48 /* Assets.xcassets */,
 				4ABDFD0C1C2DBC3E00B71E48 /* MainMenu.xib */,
 				4ABDFD0F1C2DBC3E00B71E48 /* Info.plist */,
+				4ABDFEE21C2DDFA900B71E48 /* ReadMe.txt */,
 			);
 			path = QLED;
 			sourceTree = "<group>";
@@ -68,6 +95,7 @@
 				4ABDFD011C2DBC3E00B71E48 /* Sources */,
 				4ABDFD021C2DBC3E00B71E48 /* Frameworks */,
 				4ABDFD031C2DBC3E00B71E48 /* Resources */,
+				4ABDFED81C2DCCC100B71E48 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -90,6 +118,11 @@
 				TargetAttributes = {
 					4ABDFD041C2DBC3E00B71E48 = {
 						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -116,8 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABDFEE71C2DE59F00B71E48 /* LEDTapeViewController.xib in Resources */,
 				4ABDFD0B1C2DBC3E00B71E48 /* Assets.xcassets in Resources */,
 				4ABDFD0E1C2DBC3E00B71E48 /* MainMenu.xib in Resources */,
+				4ABDFEE31C2DDFA900B71E48 /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABDFEE61C2DE59F00B71E48 /* LEDTapeViewController.swift in Sources */,
 				4ABDFD091C2DBC3E00B71E48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,11 +266,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QLED/QLED.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/QLED",
+				);
 				INFOPLIST_FILE = QLED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harryshamansky.QLED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -242,7 +286,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QLED/QLED.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/QLED",
+				);
 				INFOPLIST_FILE = QLED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harryshamansky.QLED;
